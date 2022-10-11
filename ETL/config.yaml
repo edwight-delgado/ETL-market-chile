@@ -1,0 +1,99 @@
+market_sites:
+  santaisabel:
+    base_url: https://www.santaisabel.cl
+    links : [
+      'frutas-y-verduras/frutos-secos-y-semillas',
+      'quesos-y-fiambres',
+        
+     
+      ]
+    queries:
+      homepage_product_body: ['shelf-products-wrap','CLASS_NAME']
+      product_item: ['.shelf-item','CSS']
+      product_name: ['shelf-product-title-text','CLASS_NAME']
+      product_price: ['product-sigle-price-wrapper','CLASS_NAME']
+      product_price_ref: ['price-product-value','CLASS_NAME']
+      product_out_stock: 'product-flag out-of-stock'
+      product_offer: ['product-flag-text','CLASS_NAME']
+      product_code: 'product-code'
+      product_brand: ['shelf-product-brand','CLASS_NAME']
+      product_flag_online: 'flag-exclusive-internet-text'
+      product_desc: 'product-description-content'
+      product_link: ['.shelf-product-image-island  > a','CSS']
+      product_rating: ['average-quantity','CLASS_NAME']
+      product_ingredients: 'product-ingredients-text'
+      product_unit: ['shelf-single-unit','CLASS_NAME']
+
+  jumbo:
+    base_url: https://www.jumbo.cl
+    links : [
+      'panaderia-y-pasteleria',
+      'despensa/pastas-y-salsas',
+      'despensa/arroz-y-legumbres',
+      'despensa/aceites-sal-y-condimentos',
+      'despensa/conservas',
+      'despensa/coctel',
+      'despensa/aderezos-y-salsas',
+      'despensa/instantaneos-y-sopas',
+      'despensa/harina-y-complementos',
+      'despensa/reposteria',
+      'frutas-y-verduras/frutas',
+      'frutas-y-verduras/verduras',
+      'frutas-y-verduras/frutos-secos-y-semillas',
+      #'desayuno-y-dulces',
+      #'farmacia',
+      #'belleza-y-cuidado-personal',
+      'vinos-cervezas-y-licores',
+      'quesos-y-fiambres',
+      'leches',
+      'lacteos/huevos',
+      'lacteos/mantequillas-y-margarinas',
+      'lacteos/postres',
+      ]
+    queries:
+      product_item: ['.shelf-item','CSS']
+      homepage_product_body: ['shelf-products-wrap','CLASS_NAME']
+      product_name: ['shelf-product-title-text','CLASS_NAME']
+      product_price: ['product-sigle-price-wrapper','CLASS_NAME']
+      product_price_ref: ['price-product-value','CLASS_NAME']
+      product_out_stock: ['product-flag out-of-stock','CLASS_NAME']
+      product_brand: ['shelf-product-brand','CLASS_NAME']
+      product_rating: ['average-quantity','CLASS_NAME']
+      product_offer: 'product-flag-text'
+      product_flag_online: 'flag-exclusive-internet-text'
+      product_unit: ['shelf-single-unit','CLASS_NAME']
+
+      product_low_price: 'price-best'
+
+      product_code: '.product-code'
+      product_desc: 'product-description-content'
+      product_ppm: 'product-price-ppum' #precio por unidad de medida
+      product_unidad: 'product-single-unit'
+      product_flags: 'product-flags'
+      product_ing: 'product-ingredients-text'
+      product_link: '.shelf-product-image-island  > a'
+
+  tottus:
+    base_url: https://tottus.falabella.com/tottus-cl
+    links : [
+      'category/cat14090025/Vinos-y-licores',
+      'category/cat14090030/Aceites',
+        
+     
+      ]
+    queries:
+      homepage_product_body: ['jsx-2670520932 main','CLASS_NAME']
+      product_item: ['.grid-pod.jsx-4001457643','CSS']
+      product_name: ['.pod-subTitle.subTitle-rebrand.jsx-1327784995','CSS']
+      product_price: ['.line-height-22.jsx-3548557188','CSS']
+      product_price_ref: 'price-product-value'
+      product_out_stock: 'product-flag out-of-stock'
+      product_offer: 'product-flag-text'
+      product_code: 'product-code'
+      product_brand: ['.pod-title.title-rebrand.jsx-1327784995','CSS']
+      product_flag_online: 'flag-exclusive-internet-text'
+      product_desc: 'product-description-content'
+      product_link: ['.pod-link.jsx-1327784995','CSS']
+      product_rating: 'average-quantity'
+      product_ingredients: 'product-ingredients-text'
+      product_unit: 'shelf-single-unit'
